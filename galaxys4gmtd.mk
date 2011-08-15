@@ -155,6 +155,9 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 # PRODUCT_LOCALES expansion must not be a density.
 PRODUCT_LOCALES := hdpi
 
+PRODUCT_COPY_FILES += \
+	device/samsung/galaxys4gmtd/updater.sh:updater.sh
+
 # kernel modules
 PRODUCT_COPY_FILES += \
 	device/samsung/galaxys4gmtd/bcm4329.ko:system/lib/modules/bcm4329.ko \
